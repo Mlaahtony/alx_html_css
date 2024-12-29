@@ -1,6 +1,6 @@
 # SmileSchool
 
-![SmileSchool Main Image](./images/main_part.png)
+![SmileSchool Main Image](./images/Object.png)
 
 ## Overview
 
