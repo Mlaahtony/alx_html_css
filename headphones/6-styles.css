@@ -1,0 +1,59 @@
+/* Styling for the Our Results section */
+.our-results {
+    background-image: url('./images/headphones_hero_2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.our-results h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.our-results p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+/* Styling for the pentagons */
+.pentagon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pentagon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.pentagon svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg); /* Rotate the pentagon to face upright */
+}
+
+.pentagon text {
+    font-size: 10px;
+    font-weight: bold;
+    fill: white;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+/* Add margins and spacing for the pentagons */
+.pentagon-container .pentagon {
+    margin: 0 15px;
+}
+
+/* Optional: Add hover effect for the pentagons */
+.pentagon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}

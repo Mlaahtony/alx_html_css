@@ -1,0 +1,236 @@
+main.content-center {
+    background-image: url('./images/headphones_hero_1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+}
+header nav {
+    display: flex;                /* Apply Flexbox to the navigation */
+    justify-content: space-between; /* Space out the items evenly */
+    align-items: center;          /* Vertically align the items in the center */
+}
+
+header nav a {
+    margin: 0 15px;               /* Add some space between the links */
+    text-decoration: none;        /* Remove underline from links */
+    color:white;                 /* Set text color */
+}
+
+header nav img {
+    height: 40px;                 /* Adjust the logo size */
+}
+.first-section {
+    display: flex;              /* Apply Flexbox */
+    flex-direction: column;     /* Stack the items vertically */
+    justify-content: center;    /* Center the items vertically */
+    align-items: center;        /* Center the items horizontally */
+    text-align: center;         /* Center the text inside the elements */
+    height: 100vh;              /* Ensure the section takes full viewport height */
+    color: white;
+}
+/* Styling the Call to Action Button */
+.first-section button {
+    background-color: #f77c7c;  /* Background color */
+    color: white;               /* Text color */
+    padding: 15px 30px;         /* Padding for better size */
+    border: none;               /* Remove default border */
+    border-radius: 25px;        /* Rounded corners */
+    font-size: 1.1rem;          /* Text size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background and scaling */
+}
+
+.first-section button:hover {
+    background-color: #ff4500;  /* Darker shade on hover */
+    transform: scale(1.05);      /* Slightly enlarge the button on hover */
+}
+
+.what-we-do {
+    background-color: #f4f4f4; /* Light background color */
+    padding: 40px 20px; /* Add padding for space inside the section */
+    width: 100%; /* Ensure it spans the full width */
+    text-align: center;
+}
+.what-we-do h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.what-we-do p {
+    font-size: 1rem;
+    color:black;
+    max-width: 800px; /* Optionally set a max-width for better readability */
+    margin: 0 auto; /* Center the paragraph */
+}
+/* Icons Section Styling */
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.icon-item {
+    text-align: center;
+    width: 200px; /* Ensure each icon has enough space */
+    margin: 10px;
+}
+
+.icon-item img {
+    width: 60px; /* Set the icon size */
+    height: 60px;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.icon-item p {
+    font-size: 1rem;
+    color:black;
+    margin: 0 0 5px;
+}
+/* Our Results Section */
+.our-results {
+    background-image: url('./images/headphones_hero_2.jpg'); /* Path to your background image */
+    background-size: cover; /* Make the image cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    padding: 60px 20px; /* Add space inside the section */
+    text-align: center;
+    color: #ffffff; /* Set text color to contrast with the background */
+}
+
+/* Heading and Paragraph Styling */
+.our-results h3 {
+    font-size: 1.8rem;
+    color: #ffffff; /* Ensure visibility over the background */
+    margin-bottom: 20px;
+}
+
+.our-results p {
+    font-size: 1rem;
+    color: #ffffff; /* Ensure visibility */
+    line-height: 1.5;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pentagons Container */
+.pentagons-container {
+    display: flex;
+    justify-content: space-between; /* Space evenly between pentagons */
+    align-items: center;
+    max-width: 700px; /* Control width for spacing */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Individual Pentagon Styling */
+.pentagon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.pentagon img {
+    width: 100%; /* Scale image to fit */
+    height: auto;
+    display: block;
+}
+
+/* Text Overlay Inside Pentagon */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+/* Contact Us Section */
+.contact-us {
+    background-color: white;
+    padding: 30px;
+    max-width: 800px; /* Adjust the maximum width */
+    margin: 50px auto; /* Centers the section horizontally with space on top */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the form horizontally */
+    justify-content: center; /* Centers the form vertically */
+    min-height: 400px; /* Ensures the section has enough height to center the content */
+}
+
+/* Form Header */
+.contact-us h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Description Text */
+.contact-us p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center; /* Centers the paragraph text */
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    width: 100%; /* Ensures full width for inputs */
+}
+
+/* Label for Form Fields */
+.form-group label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Input and Textarea Styling */
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Ensures padding does not add extra width */
+}
+
+/* Textarea Specific Styling */
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Submit Button Styling */
+button[type="submit"] {
+    background-color: #f17177;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #eb4141;
+}
+/* Footer Styles */
+.footer {
+    background-color: #333;         /* Dark background color for the footer */
+    color: white;                   /* White text color */
+    text-align: center;             /* Center the text */
+    padding: 20px 0;                /* Padding at the top and bottom */
+    margin-top: 50px;               /* Add some space between the footer and the section above it */
+}
+
+.footer p {
+    font-size: 1rem;                /* Set a font size for the paragraph */
+    margin: 0;                      /* Remove margin around the paragraph */
+}

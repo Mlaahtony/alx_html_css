@@ -1,0 +1,46 @@
+
+/* What We Do Section */
+.what-we-do {
+    background-color: #f4f4f4; /* Light background color */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.what-we-do h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.what-we-do p {
+    font-size: 1rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Icons Section Styling */
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.icon-item {
+    text-align: center;
+    width: 200px; /* Ensure each icon has enough space */
+    margin: 10px;
+}
+
+.icon-item img {
+    width: 60px; /* Set the icon size */
+    height: 60px;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.icon-item p {
+    font-size: 1rem;
+    color: black;
+    margin: 0 0 5px;
+}

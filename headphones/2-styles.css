@@ -1,0 +1,61 @@
+/* Our Results Section */
+.our-results {
+    background-image: url('./images/headphones_hero_2.jpg'); /* Path to your background image */
+    background-size: cover; /* Make the image cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    padding: 60px 20px; /* Add space inside the section */
+    text-align: center;
+    color: #ffffff; /* Set text color to contrast with the background */
+}
+
+/* Heading and Paragraph Styling */
+.our-results h3 {
+    font-size: 1.8rem;
+    color: #ffffff; /* Ensure visibility over the background */
+    margin-bottom: 20px;
+}
+
+.our-results p {
+    font-size: 1rem;
+    color: #ffffff; /* Ensure visibility */
+    line-height: 1.5;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pentagons Container */
+.pentagons-container {
+    display: flex;
+    justify-content: space-between; /* Space evenly between pentagons */
+    align-items: center;
+    max-width: 700px; /* Control width for spacing */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Individual Pentagon Styling */
+.pentagon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.pentagon img {
+    width: 100%; /* Scale image to fit */
+    height: auto;
+    display: block;
+}
+
+/* Text Overlay Inside Pentagon */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}

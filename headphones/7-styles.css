@@ -1,0 +1,94 @@
+/* General Section Styling */
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* What We Do Section */
+.what-we-do {
+    background-color: #f4f4f4;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    width: 22%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-item img {
+    width: 50px;  /* Reduced size of icons */
+    height: 50px;
+}
+
+.icon-item p {
+    margin: 10px 0;
+}
+
+/* Hover effect for icons */
+.icon-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Our Results Section */
+.our-results {
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.pentagon-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.pentagon {
+    width: 15%;  /* Reduced size of pentagons */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pentagon svg {
+    width: 100%;
+    height: auto;
+}
+
+.pentagon .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2px;  /* Smaller text */
+    fill: white;
+}
+
+/* Hover effect for pentagons */
+.pentagon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Add a background for better visibility */
+#what-we-do {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+#our-results {
+    background: url('./images/headphones_hero_2.jpg') no-repeat center center/cover;
+    color: white;
+}
