@@ -1,0 +1,13 @@
+/* Footer Styles */
+.footer {
+    background-color: #333;         /* Dark background color for the footer */
+    color: white;                   /* White text color */
+    text-align: center;             /* Center the text */
+    padding: 20px 0;                /* Padding at the top and bottom */
+    margin-top: 50px;               /* Add some space between the footer and the section above it */
+}
+
+.footer p {
+    font-size: 1rem;                /* Set a font size for the paragraph */
+    margin: 0;                      /* Remove margin around the paragraph */
+}
